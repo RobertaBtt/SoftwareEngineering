@@ -1,13 +1,16 @@
 ## List
 
-The can collect eterogeneous types of data.
+- They can collect eterogeneous types of data (arbitrary objects)
+- Are ordered 
+- Are **mutable** which means that the content can be changed without change their identity
 
-Are **mutable** which means that the content can be changed 
-without change their identity
+- Can be accessed by an index
+- Can be nested
+
 
 ### What is a shallow copy
 
-It has sense of talking about deep copy or shallow copy only for 
+It has a sense of talking about deep copy or shallow copy only for 
 compounded objects like **classes** or **lists**.
 
 When we use the operator "="
